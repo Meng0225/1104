@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meng APP</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+        
+        a:visited{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:active{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div is="page" id="home" data-role="page">
+        <div data-role="header" data-position="fixed" style="background: -webkit-linear-gradient(rgb(143, 189, 207),rgb(25,24,44));">
+            <h1 style="color:white;text-align: center;font-size: 24px;">LmyHtml</h1>
+            <a class="ui-btn ui-btn-right ui-btn-icon-left ui-icon-info ui-btn-icon-notext ui-corner-all" style="margin: 12px;"></a>
+    </div>
+    <div style="margin-top: 30px;" role="main" class="ui-content">
+            <div is ="grid" class="ui-grid-b" style="height: 130px">
+                <div class="ui-block-a"style="height: 100%;text-align: center">
+                    <a href="#A">
+                        <img src="images/M1.jpg" style="width:60px; margin: 5px 15px 5px 18px">
+                        <h5 style="text-align: center; margin-top:-5px;">Disney</h5>
+                    </a>
+                </div>
+                <div class="ui-block-b" style="height: 100%;text-align: center">
+                    <a href="#B">
+                        <img src="images/cake.png" style="width: 70px; margin-left: 10px;">
+                        <h5 style="text-align: center; margin-top:-5px;margin-left: 18px ">美食</h5>
+                    </a>
+                </div>
+                <div class="ui-block-c" style="height:100%;text-align: center">
+                    <a href="#C">
+                        <img src="images/zoo.png" style="width: 60px">
+                        <h5 style="text-align: center; margin-top:-5px;">動物園</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div is ="grid" class="ui-grid-b" style="height: 130px">
+                    <div class="ui-block-a" style="height: 100%;text-align: center">
+                        <a href="#D">
+                            <img src="images/package_toys.png" style="width:60px; margin: 5px 15px 5px 18px">
+                            <h5 style="text-align: center; margin-top:-5px;">貓咪種類</h5>
+                        </a>
+                    </div>
+                    <div class="ui-block-b" style="height: 100%;text-align: center">
+                        <a href="#E">
+                            <img src="images/pics_2.png" style="width: 70px; margin-left: 10px;">
+                            <h5 style="text-align: center; margin-top:-5px;margin-left: 20px ">我的相片</h5>
+                        </a>
+                    </div>
+                    <div class="ui-block-c" style="height:100%;text-align: center">
+                        <a href="#F">
+                            <img src="images/SMILE.jpg" style="width: 70px">
+                            <h5 style="text-align: center; margin-top:-5px;">笑話集</h5>
+                        </a>
+                    </div>
+    <div data-role="footer" data-position="fixed"><h4>@2019 NFU APP</h4></div>
+            </div>
+    </div></div></body>
+    <div data-role="page" id="A">
+            <div data-role="header">
+                  <h1>迪士尼人物</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true" data-divider-thebe="a">
+                     <li style="text-align:center; background:lightblue";data-role="list-divider">迪士尼人物</li> 
+                  </li></ul>
+                  
+                     <ul data-role="listview" data-inset="true">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                          <li><a href="#p1" style="text-align: center">米奇</a></li>
+                          <li><a href="#p2" style="text-align: center">毛怪</a></li>
+                          <li><a href="#p3" style="text-align: center">小熊維尼</a></li>
+                          <li><a href="#p4" style="text-align: center">愛麗絲</a></li>
+                          <li><a href="#p5" style="text-align: center">胡迪</a></li>
+                      </ul>
+              </div><!-- /content -->
+          
+              <div data-role="footer" data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+      
+          <div data-role="page" id="p1">
+      
+                <div data-role="header">
+                        <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                    <h1>米奇</h1>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content">
+                    <div style="text-align: center"><img src="images/D1.jpg" ></div>
+                    <ul data-role="listview" data-inset="true">
+                    </ul>
+                </div><!-- /content -->
+        
+            <div data-role="footer" data-position="fixed">
+                <h4>@2019 NFU </h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->   
+
+          <div data-role="page" id="p2">
+      
+                  <div data-role="header">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                      <h1>毛怪</h1>
+                  </div><!-- /header -->
+              
+                  <div role="main" class="ui-content">
+                      <div style="text-align: center"><img src="images/D2.jpg" alt=""></div>
+                      <ul data-role="listview" data-inset="true">
+                      </ul>
+                  </div><!-- /content -->
+          
+              <div data-role="footer" data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+
+          <div data-role="page" id="p3">
+      
+              <div data-role="header">
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>小熊維尼</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/D3.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+          <div data-role="footer" data-position="fixed">
+              <h4>@2019 NFU </h4>
+          </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="p4">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>愛麗絲</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/D4.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+          <div data-role="footer" data-position="fixed">
+          <h4>@2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+ 
+      <div data-role="page" id="p5">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>胡迪</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/D5.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+      <div data-role="footer" data-position="fixed">
+          <h4> @2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="B">
+            <div data-role="header">
+                  <h1>美食</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true" data-divider-thebe="a">
+                     <li style="text-align:center; background:lightblue";data-role="list-divider">美食</li> 
+                  </li></ul>
+                  
+                     <ul data-role="listview" data-inset="true">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                          <li><a href="#p6" style="text-align: center">鬆餅塔</a></li>
+                          <li><a href="#p7" style="text-align: center">熱狗年糕</a></li>
+                          <li><a href="#p8" style="text-align: center">小鬆餅</a></li>
+                          <li><a href="#p9"style="text-align: center">馬卡龍</a></li>
+                          <li><a href="#p10"style="text-align: center">可麗露</a></li>
+                      </ul>
+              </div><!-- /content -->
+          
+              <div data-role="footer" data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+      
+          <div data-role="page" id="p6">
+      
+              <div data-role="header" >
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>鬆餅塔</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/CC1.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page --> 
+
+          <div data-role="page" id="p7">
+      
+                  <div data-role="header">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                      <h1>熱狗年糕</h1>
+                  </div><!-- /header -->
+              
+                  <div role="main" class="ui-content">
+                      <div style="text-align: center"><img src="images/CC2.jpg" alt=""></div>
+                      <ul data-role="listview" data-inset="true">
+                      </ul>
+                  </div><!-- /content -->
+          
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+ 
+          <div data-role="page" id="p8">
+      
+              <div data-role="header">
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>小鬆餅</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/CC3.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+          <div data-role="footer">data-position="fixed"
+              <h4>@2019 NFU</h4>
+          </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="p9">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>馬卡龍</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/CC4.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+          <div data-role="footer"data-position="fixed">
+          <h4>@2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="p10">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>可麗露</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/CC5.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+      <div data-role="footer"data-position="fixed">
+          <h4> @2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+
+      <div data-role="page" id="C">
+            <div data-role="header">
+                  <h1>動物園</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true" data-divider-thebe="a">
+                     <li style="text-align:center; background:lightblue";data-role="list-divider">動物園</li> 
+                  </li></ul>
+                  
+                     <ul data-role="listview" data-inset="true">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                          <li><a href="#p11" style="text-align: center">獅子</a></li>
+                          <li><a href="#p12" style="text-align: center">大象</a></li>
+                          <li><a href="#p13" style="text-align: center">老虎</a></li>
+                          <li><a href="#p14"style="text-align: center">猩猩</a></li>
+                          <li><a href="#p15"style="text-align: center">長頸鹿</a></li>
+                      </ul>
+              </div><!-- /content -->
+          
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+      
+          <div data-role="page" id="p11">
+      
+              <div data-role="header" >
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>獅子</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/Z1.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU</h4>
+              </div><!-- /footer -->
+          </div><!-- /page --> 
+      
+          <div data-role="page" id="p12">
+      
+                  <div data-role="header">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                      <h1>大象</h1>
+                  </div><!-- /header -->
+              
+                  <div role="main" class="ui-content">
+                      <div style="text-align: center"><img src="images/Z2.jpg" alt=""></div>
+                      <ul data-role="listview" data-inset="true">
+                      </ul>
+                  </div><!-- /content -->
+          
+              <div data-role="footer" data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+
+          <div data-role="page" id="p13">
+      
+              <div data-role="header">
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>老虎</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/Z3.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+          <div data-role="footer"data-position="fixed">
+              <h4>@2019 NFU </h4>
+          </div><!-- /footer -->
+      </div><!-- /page -->  
+      
+      <div data-role="page" id="p14">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>猩猩</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/Z4.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+          <div data-role="footer"data-position="fixed">
+          <h4>@2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="p15">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>長頸鹿</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/Z5.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+      <div data-role="footer"data-position="fixed">
+          <h4> @2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+
+      <div data-role="page" id="D">
+            <div data-role="header">
+                  <h1>貓咪種類</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true" data-divider-thebe="a">
+                     <li style="text-align:center; background:lightblue";data-role="list-divider">貓咪種類</li> 
+                  </li></ul>
+                  
+                     <ul data-role="listview" data-inset="true">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                          <li><a href="#p16" style="text-align: center">美國短毛貓</a></li>
+                          <li><a href="#p17" style="text-align: center">英國短毛貓</a></li>
+                          <li><a href="#p18" style="text-align: center">米克斯</a></li>
+                          <li><a href="#p19"style="text-align: center">斯芬克斯貓</a></li>
+                          <li><a href="#p20"style="text-align: center">波斯貓</a></li>
+                      </ul>
+              </div><!-- /content -->
+          
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+
+          <div data-role="page" id="p16">
+      
+              <div data-role="header" >
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>美國短毛貓</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/C1.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page --> 
+      
+          <div data-role="page" id="p17">
+      
+                  <div data-role="header">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                      <h1>英國短毛貓</h1>
+                  </div><!-- /header -->
+              
+                  <div role="main" class="ui-content">
+                      <div style="text-align: center"><img src="images/C2.jpg" alt=""></div>
+                      <ul data-role="listview" data-inset="true">
+                      </ul>
+                  </div><!-- /content -->
+          
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+
+          <div data-role="page" id="p18">
+      
+              <div data-role="header">
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>米克斯</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/C3.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+          <div data-role="footer"data-position="fixed">
+              <h4>@2019 NFU </h4>
+          </div><!-- /footer -->
+      </div><!-- /page -->  
+      
+      <div data-role="page" id="p19">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>斯芬克斯貓</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/C4.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+          <div data-role="footer"data-position="fixed">
+          <h4>@2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="p20">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>波斯貓</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/C5.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+      <div data-role="footer"data-position="fixed">
+          <h4> @2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->   
+
+      <div data-role="page" id="E">
+            <div data-role="header">
+                  <h1>我的圖片</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true" data-divider-thebe="a">
+                     <li style="text-align:center; background:lightblue";data-role="list-divider">我的圖片</li> 
+                  </li></ul>
+                  
+                     <ul data-role="listview" data-inset="true">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                          <li><a href="#p21" style="text-align: center">家貓1</a></li>
+                          <li><a href="#p22" style="text-align: center">家貓2</a></li>
+                          <li><a href="#p23" style="text-align: center">家貓3</a></li>
+                          <li><a href="#p24"style="text-align: center">家貓4</a></li>
+                          <li><a href="#p25"style="text-align: center">家貓5</a></li>
+                      </ul>
+              </div><!-- /content -->
+          
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+      
+          <div data-role="page" id="p21">
+      
+              <div data-role="header" >
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>家貓1</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/1.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page --> 
+
+          <div data-role="page" id="p22">
+      
+                  <div data-role="header">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                      <h1>家貓2</h1>
+                  </div><!-- /header -->
+              
+                  <div role="main" class="ui-content">
+                      <div style="text-align: center"><img src="images/2.jpg" alt=""></div>
+                      <ul data-role="listview" data-inset="true">
+                      </ul>
+                  </div><!-- /content -->
+          
+              <div data-role="footer" data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+
+          <div data-role="page" id="p23">
+      
+              <div data-role="header">
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                  <h1>家貓3</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <div style="text-align: center"><img src="images/3.jpg" alt=""></div>
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+      
+          <div data-role="footer" data-position="fixed">
+              <h4>@2019 NFU</h4>
+          </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="p24">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>家貓4</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/4.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+          <div data-role="footer"data-position="fixed">
+          <h4>@2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+      
+      <div data-role="page" id="p25">
+      
+          <div data-role="header">
+                  <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              <h1>家貓5</h1>
+          </div><!-- /header -->
+      
+          <div role="main" class="ui-content">
+              <div style="text-align: center"><img src="images/5.jpg" alt=""></div>
+              <ul data-role="listview" data-inset="true">
+              </ul>
+          </div><!-- /content -->
+      
+      <div data-role="footer" data-position="fixed">
+          <h4> @2019 NFU </h4>
+      </div><!-- /footer -->
+      </div><!-- /page -->  
+
+      <div data-role="page" id="F">
+            <div data-role="header">
+                  <h1>笑話集</h1>
+              </div><!-- /header -->
+          
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true" data-divider-thebe="a">
+                     <li style="text-align:center; background:lightblue";data-role="list-divider">笑話</li> 
+                  </li></ul>
+                  
+                     <ul data-role="listview" data-inset="true">
+                          <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                          <li><a href="#p26" style="text-align: center">笑話1 - 不准最好 </a></li>
+                          <li><a href="#p27" style="text-align: center">笑話2 - 老公外遇 </a></li>
+                          <li><a href="#p28" style="text-align: center">笑話3 - 自由 </a></li>
+                          <li><a href="#p29"style="text-align: center">笑話4 - 情書 </a></li>
+                          <li><a href="#p30"style="text-align: center">笑話5 - 花枝意麵 </a></li>
+                      </ul>
+              </div><!-- /content -->
+          
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU </h4>
+              </div><!-- /footer -->
+          </div><!-- /page -->  
+      
+          <div data-role="page" id="p26">
+      
+              <div data-role="header" >
+                      <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+              </div>  
+              <div role="main" class="ui-content">
+                  <ul data-role="listview" data-inset="true">
+                  </ul>
+              </div><!-- /content -->
+              <div data-role="header"><h3>笑話1 - 不准最好 </h3></div>
+              <div role="main" class="ui-content">
+                  <p>職員：「經理…　家裡剛打電話來，我得要請假。」
+                    經理：「公司正忙得要死，請什麼假？」
+                    職員：「我老婆叫我回家打掃。」
+                    經理：「不准！」
+                    職員：「謝謝！謝謝經理！」</p>
+              </div>
+              <div data-role="footer"data-position="fixed">
+                  <h4>@2019 NFU</h4>
+              </div><!-- /footer -->
+          </div><!-- /page --> 
+
+          <div data-role="page" id="p27">
+      
+            <div data-role="header" >
+                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+            </div>
+            <div role="main" class="ui-content">    
+                <ul data-role="listview" data-inset="true">
+                </ul>
+            </div><!-- /content -->
+            <div data-role="header"><h3>笑話2 - 老公外遇 </h3>
+            </div>
+            <div role="main" class="ui-content">
+                <p>甲婦：「如果妳的老公有外遇，妳會怎麼樣？」
+                        乙婦：「我會睜一隻眼，閉一隻眼。」
+                        甲婦：「喔！妳這麼大方！」
+                        乙婦：「不，我是要用槍瞄準他。」</p>
+            </div>
+            <div data-role="footer"data-position="fixed">
+                <h4>@2019 NFU</h4>
+            </div><!-- /footer -->
+          </div><!-- /page --> 
+      
+            <div data-role="page" id="p28">
+      
+                    <div data-role="header" >
+                            <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                    </div>
+                    <div role="main" class="ui-content">
+                        
+                        <ul data-role="listview" data-inset="true">
+                        </ul>
+                    </div><!-- /content -->
+                    <div data-role="header"><h3>笑話3 - 自由</h3></div>
+                    <div role="main" class="ui-content">
+                        <p>一位年輕人很想獲得自由，跑去問自由女神，
+                            如何才能得到自由。
+                            自由女神說：「你看我自由嗎？」</p>
+                    </div>
+                    <div data-role="footer"data-position="fixed">
+                        <h4>@2019 NFU</h4>
+                    </div><!-- /footer -->
+                </div><!-- /page --> 
+
+                <div data-role="page" id="p29">
+      
+                        <div data-role="header" >
+                                <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                        </div>
+                        <div role="main" class="ui-content">
+                            
+                            <ul data-role="listview" data-inset="true">
+                            </ul>
+                        </div><!-- /content -->
+                        <div data-role="header"><h3>笑話4 - 情書 </h3></div>
+                        <div role="main" class="ui-content">
+                            <p>小明很喜歡坐同一部校車的一位女生…
+                                一天，他鼓起勇氣傳紙條給坐在後面的女生，
+                                紙條上寫著：「我是小明，我很喜歡妳，如果妳願意跟我作朋友，
+                                請把紙條傳回來；如果妳不喜歡我，請把紙條丟到窗外去。」
+                                過了一會兒，女生把紙條慢慢傳回來了，
+                                小明高興地把紙條打開…
+                                紙條上寫著：「窗戶打不開！」</p>
+                        </div>
+                        <div data-role="footer"data-position="fixed">
+                            <h4>@2019 NFU</h4>
+                        </div><!-- /footer -->
+                    </div><!-- /page --> 
+                     <div data-role="page" id="p30">
+                                <div data-role="header" >
+                                    <a href="#" data-rel="back" class="ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all"  data-role="button" role="button">Back</a>
+                                </div>
+                            <div role="main" class="ui-content">
+                                
+                                <ul data-role="listview" data-inset="true">
+                                </ul>
+                            </div><!-- /content -->
+                            <div data-role="header"><h3>笑話5 - 花枝意麵 </h3></div>
+                            <div role="main" class="ui-content">
+                                <p>小明到夜市吃宵夜…
+                                    看到招牌上寫著「花枝意麵」，就叫碗來吃吃看…
+                                    吃到一半小明發現?面根本沒有花枝，覺得被騙了！
+                                    就問老闆娘：「老闆娘，我的花枝意麵?怎麼根本沒花枝呢？」
+                                    老闆娘：「花枝是我的名字啦！」
+                            <div data-role="footer"data-position="fixed">
+                                <h4>@2019 NFU</h4>
+                            </div><!-- /footer -->
+                        </div><!-- /page --> 
+                </body>
+                </html>
